@@ -1,0 +1,91 @@
+.login-bg{
+    display: block;
+}
+.max-w-300{
+    max-width: 300px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.m-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-bg h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.login-bg .alert-error {
+    padding: 5px 0 10px 0;
+    text-align: center;
+    color:#f44336;
+}
+.login-bg .alert-success {
+background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #205823;
+    padding: 5px 0 10px;
+    text-align: center;}
+.login-bg [class^="icon-"], .login-bg [class*=" icon-"] {
+    color: #cccccc;
+}
+.login-bg img{
+    margin: 10px auto;
+}
+.input-err,.error p{
+    margin: 7px 0;
+    color: #d84315;
+}
+.notify-error,.notify-success{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    color: #d84315;
+    font-size: 13px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+.notify-success{
+    color: #43a047;
+}
+.notify-error .closebtn,.notify-success .closebtn {
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    margin-top: -5px;
+   
+}
+td .image-list{
+    position: relative;
+}
+td .image-list .img-view{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid #ccc;
+    padding: 3px;
+    z-index: 5;
+}
+td .image-list:hover .img-view{
+    display: block;
+}
+input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="number"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="url"], input[type="tel"], textarea,select{
+   /* margin: 10px 0 5px 0;*/
+}
+.admin-add-table td{
+    padding: 3px;
+}
+.admin-add-table td label{
+    margin-bottom: 0px;
+}
+.pagination{
+    margin: 20px 0;
+}
+span.required{
+    color: #d84315;
+}
+.note-editing-area{
+    height: 300px;
+}
+.user_skill{padding:5px 10px;border: 1px solid #dedede;margin-right: 5px;border-radius: 3px;}

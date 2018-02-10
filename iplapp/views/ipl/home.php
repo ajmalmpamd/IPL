@@ -16,7 +16,7 @@
                         <div class="col-md-10">
                             <a href="<?php echo site_url('team/'.slugify($item->home).'-'.$item->home_team);?>"><?php echo $item->home; ?></a>
                             x
-                            <?php echo $item->away; ?>
+                            <a href="<?php echo site_url('team/'.slugify($item->away).'-'.$item->away_team);?>"><?php echo $item->away; ?></a>
                         </div>
                     </div>
                 <?php endforeach ?>

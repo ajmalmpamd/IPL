@@ -60,6 +60,7 @@ class Home extends MY_Controller {
         }
         $player_config['table']='player';
         $player_config['condition']['status']='Y';
+        $player_config['condition']['team']=$id;
         $data_body['players']=$this->M_common->getDatas($player_config);
         
         

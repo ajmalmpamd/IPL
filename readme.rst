@@ -15,9 +15,13 @@ Release Information
 *******************
 
 Create a database with the sql file from the sql folder.
+
 go to the admin dashbord for updating the data 
+
 admin url: /sitemanager
+
 username: admin
+
 password: 123456
 
 **************************

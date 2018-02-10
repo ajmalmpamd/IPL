@@ -14,9 +14,11 @@ for a given task.
 Release Information
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Create a database with the sql file from the sql folder.
+go to the admin dashbord for updating the data 
+admin url: /sitemanager
+username: admin
+password: 123456
 
 **************************
 Changelog and New Features
